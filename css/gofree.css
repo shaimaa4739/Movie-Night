@@ -1,0 +1,62 @@
+.movie{
+    background-color: var(--dark-color);
+
+}
+.movie .cov {
+    margin: 30px;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 20px;
+
+}
+.movie img{
+    border-radius: 20px;
+    width: 600px;
+}
+:root{
+    --dark-color: #0C0F38;
+    --yellow-color: #ccbf8a;
+    --purple-color: #8308EB;
+    --red-color: #fd3030;
+
+
+}
+.aboutmovie{
+    margin: 50px;
+    border-radius: 25px;
+    background-color: var(--dark-color);
+}
+.aboutmovie .btn{
+    background-color:  var(--purple-color);
+    border-color: white;
+    color:  yellow;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.aboutmovie .btn:hover{
+    background-color: white;
+    border-color: var(--purple-color);
+    color: var(--dark-color);
+
+}
+.aboutmovie p{
+    color: white;
+    font-size: 1.5rem;
+}
+.aboutmovie #btn2{
+    background-color:yellow;
+    border-color: white;
+    color:  var(--purple-color);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.aboutmovie #btn2:hover{
+    background-color: white;
+    border-color: var(--purple-color);
+    color: var(--purple-color);
+
+}

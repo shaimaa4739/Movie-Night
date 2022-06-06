@@ -1,0 +1,122 @@
+:root{
+    --dark-color: #0C0F38;
+    --yellow-color: #FDD430;
+    --purple-color: #8308EB;
+}
+body{
+    font-family: 'lato',sans-serif;
+}
+.navbar-expand-sm{
+    background-color: var(--dark-color) !important;
+}
+.navbar-expand-sm .navbar-brand{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.navbar-expand-sm .navbar-brand:hover{
+    color: var(--yellow-color) ;
+}
+.navbar-expand-sm .navbar-nav .nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar-expand-sm .navbar-nav .nav-item .nav-link{
+    font-size: 1.2rem;
+}
+.navbar-expand-sm .navbar-nav .nav-item .nav-link:hover{
+    color: var(--yellow-color) ;
+}
+.showcase{
+    background-color: var(--dark-color) !important; 
+}
+.moviename{
+    color: var(--yellow-color) !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.content .btn-light{
+    background-color:  var(--yellow-color);
+    border-color: white;
+    color: var(--dark-color);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.content .btn-light:hover{
+    background-color: white;
+    border-color: var(--yellow-color);
+    color: var(--dark-color);
+
+}
+.services .btn-light{
+    background-color:  var(--yellow-color);
+    border-color: white;
+    color: var(--dark-color);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+
+}
+.services .btn-light:hover{
+    background-color: white;
+    border-color: var(--yellow-color);
+    color: var(--dark-color);
+
+}
+
+
+.about h2
+.services h2{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 45px;
+    text-shadow: .5px .5px .5px #000 ;
+}
+.about p{
+    width: 80%;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+}
+.about .btn-dark{
+    background-color:  var(--dark-color);
+    border-color: white;
+    color: var(--yellow-color);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+}
+.about .btn-dark:hover{
+    background-color: var(--yellow-color) ;
+    border-color: white;
+    color: var(--dark-color);
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+}
+.services{
+    background-color: var(--dark-color);
+    color: white;
+}
+.services h2{
+    margin-bottom: 16px;
+}
+.services .service
+{
+    padding: 12px;
+    border: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+.services p{
+    font-size: 0.9rem ;
+}
+.services img
+{
+    width: 75%;
+}
